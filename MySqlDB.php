@@ -12,7 +12,7 @@ if (!$conn) {
     echo "Connection Was Done!!!<br>";
 }
 
-$sql = "CREATE DATABASE MySqlDB2";
+$sql = "CREATE DATABASE MySqlDB";
 $result = mysqli_query($conn, $sql);
 
 if($result){
